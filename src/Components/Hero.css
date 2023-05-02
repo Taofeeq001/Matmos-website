@@ -1,0 +1,93 @@
+.hero{
+    background-image: url(../image/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 70vh; */
+    padding-left: 12rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+.hero h2{
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    margin-top: 6rem;
+    margin-bottom: 20px;
+}
+.hero p{
+    width: 35%;
+    color: white;
+    font-size: 16px;
+}
+.search{
+    display: flex;
+    margin-top: 40px;
+}
+.search button{
+    background-color: #F305F8;
+    border: none;
+    width: 90px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.search input{
+    width: 19%;
+    padding: 14px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.tel{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.tel .number{
+    color: #F305F8;
+}
+
+.number{
+    display: flex;
+    gap: 10px;
+}
+
+.number li{
+    list-style: none;
+}
+@media screen and (max-width:950px) {
+    .hero{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 1rem;
+
+    }
+    .hero h2{
+        font-size: 30px;
+    }
+    .hero p{
+        width: 100%;
+        text-align: justify;
+    }
+    .search{
+        width: 100%;
+    }
+    .search input{
+        width: 60%;
+        padding: 10px;
+    }
+    .tell{
+        width: 100%
+    }
+    .number{
+        gap: 3px;
+    }
+}

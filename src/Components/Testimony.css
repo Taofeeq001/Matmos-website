@@ -1,0 +1,53 @@
+.testimony{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13rem;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.test1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.top h4{
+    color: #D900FC;
+}
+.top h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.testContent{
+    width: 100%;
+    display: flex;
+    gap: 7rem;
+}
+.test1{
+    width: 35%;
+    text-align: justify;
+}
+.testContent .picName{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media screen and (max-width:950px) {
+    .testimony{
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+    .top h2{
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+    .testContent{
+        width: 100%;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .test1{
+        width: 100%;
+    }
+}
